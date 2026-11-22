@@ -21,3 +21,14 @@ __pycache__/
 .pytest_cache/
 .artifacts/
 *.uid
+
+# Migration safety ignores
+.env
+.venv/
+save/
+.godot/
+.import/
+__pycache__/
+.pytest_cache/
+.artifacts/
+*.uid
