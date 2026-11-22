@@ -1,0 +1,106 @@
+{
+  "safiya": {
+    "states": {
+      "neutral": "needs_art_review",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "elara_veyne": {
+    "states": {
+      "neutral": "needs_art_review",
+      "thinking": "needs_art_review",
+      "amused": "needs_art_review",
+      "skeptical": "needs_art_review",
+      "delighted": "needs_art_review",
+      "annoyed": "needs_art_review",
+      "surprised": "needs_art_review",
+      "sad": "needs_art_review"
+    },
+    "complete": false
+  },
+  "rin_kaede": {
+    "states": {
+      "neutral": "needs_art_review",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "master_chen": {
+    "states": {
+      "neutral": "needs_art_review",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "mara_copperwell": {
+    "states": {
+      "neutral": "pass",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "tarek_ashwood": {
+    "states": {
+      "neutral": "missing",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "yuna_seo": {
+    "states": {
+      "neutral": "missing",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  },
+  "felix_rowe": {
+    "states": {
+      "neutral": "missing",
+      "thinking": "missing",
+      "amused": "missing",
+      "skeptical": "missing",
+      "delighted": "missing",
+      "annoyed": "missing",
+      "surprised": "missing",
+      "sad": "missing"
+    },
+    "complete": false
+  }
+}

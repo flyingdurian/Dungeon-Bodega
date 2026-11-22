@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "expression_states": [
+    "neutral",
+    "thinking",
+    "amused",
+    "skeptical",
+    "delighted",
+    "annoyed",
+    "surprised",
+    "sad"
+  ],
+  "characters": {
+    "safiya": {
+      "available": [
+        "neutral"
+      ],
+      "complete": false,
+      "anchor": "vn_safiya_neutral.png",
+      "source": "V1.0 single state — production reillustration still required"
+    },
+    "elara_veyne": {
+      "available": [
+        "neutral",
+        "thinking",
+        "amused",
+        "skeptical",
+        "delighted",
+        "annoyed",
+        "surprised",
+        "sad"
+      ],
+      "complete": true,
+      "anchor": "vn_elara_veyne_neutral.png",
+      "source": "New illustrated eight-pose sheet"
+    },
+    "rin_kaede": {
+      "available": [
+        "neutral"
+      ],
+      "complete": false,
+      "anchor": "vn_rin_kaede_neutral.png",
+      "source": "V1.0 single state — production reillustration still required"
+    },
+    "master_chen": {
+      "available": [
+        "neutral"
+      ],
+      "complete": false,
+      "anchor": "vn_master_chen_neutral.png",
+      "source": "V1.0 single state — production reillustration still required"
+    }
+  }
+}

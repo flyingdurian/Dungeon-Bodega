@@ -1,0 +1,26 @@
+{
+  "release": "1.2.4",
+  "purpose": "IN-GAME ART REVIEW ONLY \u2014 NOT APPROVED PRODUCTION",
+  "candidate_status": "INCOMPLETE_4_OF_12",
+  "character": "master_chen",
+  "source": "independent newly generated 1024x1536 RGBA portraits; no sprite-sheet crops",
+  "states": [
+    "amused",
+    "thinking",
+    "skeptical",
+    "suspicious"
+  ],
+  "remaining": [
+    "neutral",
+    "curious",
+    "delighted",
+    "annoyed",
+    "angry",
+    "surprised",
+    "sad",
+    "flustered"
+  ],
+  "owner_approved": false,
+  "art_bible": "docs/QUALITY_LOCK_V123.md",
+  "installation_note": "Press F2 in a Master Chen encounter to cycle staged candidate states; regular gameplay still shows unapproved legacy neutral."
+}

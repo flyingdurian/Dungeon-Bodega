@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/HermesStream.gd" id="2_hermes"]
+[ext_resource type="Script" path="res://scripts/MicrophoneCapture.gd" id="3_mic"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_main")
+
+[node name="GameHTTP" type="HTTPRequest" parent="."]
+timeout = 30.0
+
+[node name="PollHTTP" type="HTTPRequest" parent="."]
+timeout = 8.0
+
+[node name="HealthHTTP" type="HTTPRequest" parent="."]
+timeout = 4.0
+
+[node name="CatalogHTTP" type="HTTPRequest" parent="."]
+timeout = 8.0
+
+[node name="SttHTTP" type="HTTPRequest" parent="."]
+timeout = 45.0
+
+[node name="InterruptHTTP" type="HTTPRequest" parent="."]
+timeout = 5.0
+
+[node name="ReactionHTTP" type="HTTPRequest" parent="."]
+timeout = 10.0
+
+[node name="ReactionPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -2.0
+
+[node name="HermesStream" type="Node" parent="."]
+script = ExtResource("2_hermes")
+
+[node name="AudioPlayer" type="AudioStreamPlayer" parent="HermesStream"]
+volume_db = 0.0
+
+[node name="MicrophoneCapture" type="Node" parent="."]
+script = ExtResource("3_mic")
+
+[node name="MicrophonePlayer" type="AudioStreamPlayer" parent="MicrophoneCapture"]
+
+[node name="ThinkingPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -12.0
+
+[node name="TypingPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -24.0
+pitch_scale = 1.0
+
+[node name="EventPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -10.0

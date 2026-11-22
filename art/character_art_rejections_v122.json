@@ -1,0 +1,94 @@
+{
+  "release": "1.2.2",
+  "user_review": "REJECTED — seven existing character visual designs and/or acting implementations",
+  "approved_comparators": [
+    "Liu Xue",
+    "Elara Veyne"
+  ],
+  "must_not_be_counted_as_production": [
+    "contact-sheet crops",
+    "single portrait duplicated for eight emotions",
+    "upscaled low-resolution reactions",
+    "cropped UI concept art",
+    "the generated seven-person lineup"
+  ],
+  "requirements": {
+    "states": [
+      "neutral",
+      "thinking",
+      "amused",
+      "skeptical",
+      "delighted",
+      "annoyed",
+      "surprised",
+      "sad"
+    ],
+    "native_min_resolution": [
+      1024,
+      1536
+    ],
+    "format": "separate transparent RGBA PNG per character and state",
+    "alignment": "face and shoulders anchored across poses",
+    "runtime": "the main character portrait carries acting; no floating second-face reaction card",
+    "review_gate": "native Godot capture AND owner approval"
+  },
+  "characters": [
+    {
+      "id": "master_chen",
+      "name": "Master Chen Wei",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "tarek_ashwood",
+      "name": "Tarek Ashwood",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "felix_rowe",
+      "name": "Felix Rowe",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "safiya",
+      "name": "Safiya al-Nur",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "rin_kaede",
+      "name": "Rin Kaede",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "yuna_seo",
+      "name": "Yuna Seo",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    },
+    {
+      "id": "mara_copperwell",
+      "name": "Mara Copperwell",
+      "status": "REJECTED_ART_PENDING_COMPLETE_REDRAW",
+      "current_assets_are_production_approved": false,
+      "new_master_signed_off": false,
+      "all_expressions_signed_off": false
+    }
+  ],
+  "scope_of_v122_engineering_patch": "removed visitor rail/reaction cut-ins; added optional intuition mechanic; does not imply art approval"
+}

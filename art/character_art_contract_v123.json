@@ -1,0 +1,40 @@
+{
+  "release": "1.2.3",
+  "policy": "12 unique independently illustrated high-resolution transparent portraits per character; do not replace original file until approved",
+  "states": [
+    "neutral",
+    "thinking",
+    "curious",
+    "skeptical",
+    "suspicious",
+    "amused",
+    "delighted",
+    "annoyed",
+    "angry",
+    "surprised",
+    "sad",
+    "flustered"
+  ],
+  "native_min_resolution": [
+    1024,
+    1536
+  ],
+  "characters": [
+    "master_chen",
+    "tarek_ashwood",
+    "felix_rowe",
+    "safiya",
+    "rin_kaede",
+    "yuna_seo",
+    "mara_copperwell"
+  ],
+  "status_file": "godot/assets/character_art_status_v123.json",
+  "approval_conditions": [
+    "12 unique files",
+    "independent full illustrations not crops",
+    "RGBA with real transparent outside pixels",
+    "common head/eye/shoulder camera anchor",
+    "visual approval per state",
+    "native Godot screenshot verifies no collisions or zoom"
+  ]
+}

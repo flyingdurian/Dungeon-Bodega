@@ -1,0 +1,94 @@
+{
+  "schema": 2,
+  "required_states": [
+    "neutral",
+    "thinking",
+    "amused",
+    "skeptical",
+    "delighted",
+    "annoyed",
+    "surprised",
+    "sad"
+  ],
+  "minimum_native_pixels": [
+    1024,
+    1536
+  ],
+  "art_gate": "RUNTIME REACTIONS INSTALLED; PRODUCTION NATIVE-RESOLUTION FULL EXPRESSION RIGS STILL INCOMPLETE",
+  "new_cast": {
+    "mara_copperwell": {
+      "available": [
+        "neutral",
+        "thinking",
+        "amused",
+        "skeptical",
+        "delighted",
+        "annoyed",
+        "surprised",
+        "sad"
+      ],
+      "complete": false,
+      "notes": "V1.2.1: standalone transparent master plus eight runtime reaction states (and elated extra); native-size full-expression rig and refined sorrow pose remain pending. See character_art_runtime_v121.json."
+    },
+    "tarek_ashwood": {
+      "available": [
+        "neutral",
+        "thinking",
+        "amused",
+        "skeptical",
+        "delighted",
+        "annoyed",
+        "surprised",
+        "sad"
+      ],
+      "complete": false,
+      "notes": "V1.2.1: standalone transparent master plus eight runtime reaction states (and elated extra); native-size full-expression rig and refined sorrow pose remain pending. See character_art_runtime_v121.json."
+    },
+    "yuna_seo": {
+      "available": [
+        "neutral",
+        "thinking",
+        "amused",
+        "skeptical",
+        "delighted",
+        "annoyed",
+        "surprised",
+        "sad"
+      ],
+      "complete": false,
+      "notes": "V1.2.1: standalone transparent master plus eight runtime reaction states (and elated extra); native-size full-expression rig and refined sorrow pose remain pending. See character_art_runtime_v121.json."
+    },
+    "felix_rowe": {
+      "available": [
+        "neutral",
+        "thinking",
+        "amused",
+        "skeptical",
+        "delighted",
+        "annoyed",
+        "surprised",
+        "sad"
+      ],
+      "complete": false,
+      "notes": "V1.2.1: standalone transparent master plus eight runtime reaction states (and elated extra); native-size full-expression rig and refined sorrow pose remain pending. See character_art_runtime_v121.json."
+    }
+  },
+  "previous_cast_pending": {
+    "safiya": {
+      "complete": false,
+      "native_states": 0
+    },
+    "elara_veyne": {
+      "complete": false,
+      "native_states": 0
+    },
+    "rin_kaede": {
+      "complete": false,
+      "native_states": 0
+    },
+    "master_chen": {
+      "complete": false,
+      "native_states": 0
+    }
+  }
+}

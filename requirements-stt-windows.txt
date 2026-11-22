@@ -1,0 +1,4 @@
+# Optional/local Windows STT installation. Install in the same game .venv.
+# CTranslate2/faster-whisper runs on CPU int8 by default; NVIDIA CUDA requires
+# supported CUDA/cuDNN runtime versions. No hosted STT or Anthropic key needed.
+faster-whisper>=1.1,<2

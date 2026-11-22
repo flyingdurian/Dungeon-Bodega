@@ -1,0 +1,50 @@
+{
+  "version": "1.2.4",
+  "art_status": "NOT APPROVED",
+  "required_total": 84,
+  "new_native_candidates": 4,
+  "approved_new_states": 0,
+  "per_character": {
+    "master_chen": {
+      "new_native_candidates": 4,
+      "approved": false,
+      "required": 12
+    },
+    "tarek_ashwood": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    },
+    "felix_rowe": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    },
+    "safiya": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    },
+    "rin_kaede": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    },
+    "yuna_seo": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    },
+    "mara_copperwell": {
+      "new_native_candidates": 0,
+      "approved": false,
+      "required": 12
+    }
+  },
+  "validation": [
+    "python -m pytest -q",
+    "python tools/check_gdscript_static_v11.py",
+    "python tools/validate_portraits_v123.py --strict (intentionally fails)"
+  ],
+  "note": "Stage images deliberately do NOT count toward strict production validation; full set and owner/native-runtime signoff required."
+}

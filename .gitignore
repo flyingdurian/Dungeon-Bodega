@@ -1,0 +1,23 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+save/
+.DS_Store
+.artifacts/
+# Reproducible procedural PNGs. Git branch includes the Python generators;
+# the downloadable ZIP includes the ready-to-use generated PNGs.
+godot/assets/*.png
+godot/.godot/
+
+# Migration safety ignores
+.env
+.venv/
+save/
+.godot/
+.import/
+__pycache__/
+.pytest_cache/
+.artifacts/
+*.uid

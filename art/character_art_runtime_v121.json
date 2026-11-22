@@ -1,0 +1,343 @@
+{
+  "version": "1.2.1",
+  "source": "newly generated individual-expression character-sheet paintings",
+  "display": "master neutral actor with separate emotion-specific cut-in",
+  "characters": {
+    "mara_copperwell": {
+      "master": "godot/assets/vn_mara_copperwell_neutral.png",
+      "master_pixels": [
+        1024,
+        1536
+      ],
+      "states": {
+        "neutral": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_neutral.png",
+          "source_pixels": [
+            273,
+            310
+          ],
+          "alpha": true
+        },
+        "sad": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_sad.png",
+          "source_pixels": [
+            283,
+            340
+          ],
+          "alpha": true
+        },
+        "amused": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_amused.png",
+          "source_pixels": [
+            328,
+            340
+          ],
+          "alpha": true
+        },
+        "delighted": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_delighted.png",
+          "source_pixels": [
+            297,
+            323
+          ],
+          "alpha": true
+        },
+        "skeptical": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_skeptical.png",
+          "source_pixels": [
+            329,
+            322
+          ],
+          "alpha": true
+        },
+        "surprised": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_surprised.png",
+          "source_pixels": [
+            303,
+            292
+          ],
+          "alpha": true
+        },
+        "annoyed": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_annoyed.png",
+          "source_pixels": [
+            307,
+            292
+          ],
+          "alpha": true
+        },
+        "thinking": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_thinking.png",
+          "source_pixels": [
+            310,
+            363
+          ],
+          "alpha": true
+        },
+        "elated": {
+          "reaction_file": "godot/assets/vn_mara_copperwell_reaction_elated.png",
+          "source_pixels": [
+            316,
+            363
+          ],
+          "alpha": true
+        }
+      },
+      "ui_runtime_complete": true,
+      "production_art_complete": false,
+      "note": "Eight required reaction states plus one extra elated state are wired; full-resolution eight-pose paintings and a stronger grief/sadness pose still require art approval."
+    },
+    "tarek_ashwood": {
+      "master": "godot/assets/vn_tarek_ashwood_neutral.png",
+      "master_pixels": [
+        495,
+        879
+      ],
+      "states": {
+        "neutral": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_neutral.png",
+          "source_pixels": [
+            277,
+            310
+          ],
+          "alpha": true
+        },
+        "sad": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_sad.png",
+          "source_pixels": [
+            287,
+            396
+          ],
+          "alpha": true
+        },
+        "amused": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_amused.png",
+          "source_pixels": [
+            294,
+            396
+          ],
+          "alpha": true
+        },
+        "delighted": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_delighted.png",
+          "source_pixels": [
+            265,
+            410
+          ],
+          "alpha": true
+        },
+        "skeptical": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_skeptical.png",
+          "source_pixels": [
+            292,
+            402
+          ],
+          "alpha": true
+        },
+        "surprised": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_surprised.png",
+          "source_pixels": [
+            260,
+            447
+          ],
+          "alpha": true
+        },
+        "annoyed": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_annoyed.png",
+          "source_pixels": [
+            224,
+            439
+          ],
+          "alpha": true
+        },
+        "thinking": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_thinking.png",
+          "source_pixels": [
+            313,
+            443
+          ],
+          "alpha": true
+        },
+        "elated": {
+          "reaction_file": "godot/assets/vn_tarek_ashwood_reaction_elated.png",
+          "source_pixels": [
+            298,
+            445
+          ],
+          "alpha": true
+        }
+      },
+      "ui_runtime_complete": true,
+      "production_art_complete": false,
+      "note": "Eight required reaction states plus one extra elated state are wired; full-resolution eight-pose paintings and a stronger grief/sadness pose still require art approval."
+    },
+    "yuna_seo": {
+      "master": "godot/assets/vn_yuna_seo_neutral.png",
+      "master_pixels": [
+        455,
+        871
+      ],
+      "states": {
+        "neutral": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_neutral.png",
+          "source_pixels": [
+            277,
+            310
+          ],
+          "alpha": true
+        },
+        "sad": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_sad.png",
+          "source_pixels": [
+            311,
+            441
+          ],
+          "alpha": true
+        },
+        "amused": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_amused.png",
+          "source_pixels": [
+            317,
+            442
+          ],
+          "alpha": true
+        },
+        "delighted": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_delighted.png",
+          "source_pixels": [
+            320,
+            436
+          ],
+          "alpha": true
+        },
+        "skeptical": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_skeptical.png",
+          "source_pixels": [
+            306,
+            436
+          ],
+          "alpha": true
+        },
+        "surprised": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_surprised.png",
+          "source_pixels": [
+            274,
+            483
+          ],
+          "alpha": true
+        },
+        "annoyed": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_annoyed.png",
+          "source_pixels": [
+            276,
+            483
+          ],
+          "alpha": true
+        },
+        "thinking": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_thinking.png",
+          "source_pixels": [
+            263,
+            484
+          ],
+          "alpha": true
+        },
+        "elated": {
+          "reaction_file": "godot/assets/vn_yuna_seo_reaction_elated.png",
+          "source_pixels": [
+            275,
+            484
+          ],
+          "alpha": true
+        }
+      },
+      "ui_runtime_complete": true,
+      "production_art_complete": false,
+      "note": "Eight required reaction states plus one extra elated state are wired; full-resolution eight-pose paintings and a stronger grief/sadness pose still require art approval."
+    },
+    "felix_rowe": {
+      "master": "godot/assets/vn_felix_rowe_neutral.png",
+      "master_pixels": [
+        480,
+        1318
+      ],
+      "states": {
+        "neutral": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_neutral.png",
+          "source_pixels": [
+            277,
+            310
+          ],
+          "alpha": true
+        },
+        "sad": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_sad.png",
+          "source_pixels": [
+            301,
+            342
+          ],
+          "alpha": true
+        },
+        "amused": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_amused.png",
+          "source_pixels": [
+            319,
+            340
+          ],
+          "alpha": true
+        },
+        "delighted": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_delighted.png",
+          "source_pixels": [
+            303,
+            338
+          ],
+          "alpha": true
+        },
+        "skeptical": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_skeptical.png",
+          "source_pixels": [
+            319,
+            332
+          ],
+          "alpha": true
+        },
+        "surprised": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_surprised.png",
+          "source_pixels": [
+            304,
+            322
+          ],
+          "alpha": true
+        },
+        "annoyed": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_annoyed.png",
+          "source_pixels": [
+            312,
+            320
+          ],
+          "alpha": true
+        },
+        "thinking": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_thinking.png",
+          "source_pixels": [
+            305,
+            363
+          ],
+          "alpha": true
+        },
+        "elated": {
+          "reaction_file": "godot/assets/vn_felix_rowe_reaction_elated.png",
+          "source_pixels": [
+            312,
+            363
+          ],
+          "alpha": true
+        }
+      },
+      "ui_runtime_complete": true,
+      "production_art_complete": false,
+      "note": "Eight required reaction states plus one extra elated state are wired; full-resolution eight-pose paintings and a stronger grief/sadness pose still require art approval."
+    }
+  }
+}

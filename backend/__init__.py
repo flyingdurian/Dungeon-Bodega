@@ -1,0 +1,1 @@
+"""Living Counter bargaining service."""

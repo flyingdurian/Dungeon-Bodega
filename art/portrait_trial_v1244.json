@@ -1,0 +1,121 @@
+{
+  "release": "1.2.4.4",
+  "scope": "TWO_CHARACTER_FIVE_STATE_IN_GAME_QA",
+  "owner_approved": false,
+  "required_by_art_bible": 12,
+  "scope_characters": {
+    "master_chen": {
+      "states": {
+        "neutral": {
+          "file": "godot/assets/vn_master_chen_neutral.png",
+          "source": "master_chen_wei_jade_scholar.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "7e89124a9db33ab34791632ecbf1a1e86e22aba6d4b020a9b43faa8b8a91a919",
+          "transparent_ratio": 0.235
+        },
+        "thinking": {
+          "file": "godot/assets/vn_master_chen_thinking.png",
+          "source": "master_chen_wei_in_thoughtful_elegance.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "b65a13696d41d168606a621505e652751feff7c0fe56499e18fce6aed3e2c18b",
+          "transparent_ratio": 0.228
+        },
+        "amused": {
+          "file": "godot/assets/vn_master_chen_amused.png",
+          "source": "master_chen_wei_amused_antiquarian.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "cf44926924204865104b1a1845908f862a4ad7c9474c6765b08fe97ded6e864a",
+          "transparent_ratio": 0.229
+        },
+        "skeptical": {
+          "file": "godot/assets/vn_master_chen_skeptical.png",
+          "source": "skeptical_jade_appraising_scholar.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "5adf7b12c3cb7ff702ac3133fdfff32baef59f62b4da0954293c27a29375b8a3",
+          "transparent_ratio": 0.23
+        },
+        "annoyed": {
+          "file": "godot/assets/vn_master_chen_annoyed.png",
+          "source": "master_chen_wei_s_stern_displeasure.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "e1d288d654d96badf723d2e47c551b943fc006268fe2092d41016178eb50ce44",
+          "transparent_ratio": 0.233
+        }
+      },
+      "runtime_live_review": true,
+      "owner_approved": false
+    },
+    "tarek_ashwood": {
+      "states": {
+        "neutral": {
+          "file": "godot/assets/vn_tarek_ashwood_neutral.png",
+          "source": "explorer_s_compass_tarek_ashwood.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "396a9030c2393e7fa69430c780d23cc71283158daf0dccc2be4a12c7b8b22569",
+          "transparent_ratio": 0.287
+        },
+        "thinking": {
+          "file": "godot/assets/vn_tarek_ashwood_thinking.png",
+          "source": "contemplative_mapmaker_portrait.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "c44a587b1be693b1ae89f5ec6a706ae3714c72c77ce686fb820ebd5a341ce7e7",
+          "transparent_ratio": 0.265
+        },
+        "amused": {
+          "file": "godot/assets/vn_tarek_ashwood_amused.png",
+          "source": "amused_explorer_with_compass_pendant.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "47234e81573527135e00782dbd4bfa15a57d9c52a9fa5f53cb35486f1678fffc",
+          "transparent_ratio": 0.282
+        },
+        "skeptical": {
+          "file": "godot/assets/vn_tarek_ashwood_skeptical.png",
+          "source": "skeptical_cartographer_portrait.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "d66175630005483ccff827482d26f26e6db607e530eecd8ae9a69f8479f1ed99",
+          "transparent_ratio": 0.282
+        },
+        "annoyed": {
+          "file": "godot/assets/vn_tarek_ashwood_annoyed.png",
+          "source": "annoyed_explorer_tarek_ashwood.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "1bce461c0fa25f8de09f262d2771921b5451ea90d56cee2ce65fc6018645770b",
+          "transparent_ratio": 0.278
+        }
+      },
+      "runtime_live_review": true,
+      "owner_approved": false
+    }
+  },
+  "note": "Not a complete 12-state production rig; five individually generated native-RGBA trial portraits per character. No sheet crops. These 2 characters are enabled only for owner gameplay review; other rejected characters are locked."
+}
