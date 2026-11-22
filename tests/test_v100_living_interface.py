@@ -92,7 +92,7 @@ def test_five_provider_exodia_contract_preserved():
 
 def test_release_docs_and_versions():
     from backend.app import app
-    assert app.version in ('1.0.0','1.1.0','1.2.0','1.2.1','1.2.2','1.2.3','1.2.4')
+    assert app.version in ('1.0.0','1.1.0','1.2.0','1.2.1','1.2.2','1.2.3','1.2.4.4')
     assert 'V1.2.4.4 Two-Visitor Portrait QA Candidate' in (ROOT/'godot/project.godot').read_text()
     for file in ('CHANGELOG_V100.md','docs/V100_ACCEPTANCE.md','docs/V100_ART_BIBLE.md'):
         assert (ROOT/file).exists()

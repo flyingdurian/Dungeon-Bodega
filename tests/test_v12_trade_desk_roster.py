@@ -70,7 +70,7 @@ def test_require_examination_and_never_commit_economic_change():
 
 def test_fastapi_trade_desk_route_and_schema():
     with TestClient(app) as client:
-        assert client.get('/health').json()['version']=='1.2.4'
+        assert client.get('/health').json()['version']=='1.2.4.4'
         r=client.post('/encounter',json={'npc_id':'yuna_seo','era':'modern'}).json()
         sid=r['session_id']
         response=client.post('/trade-desk/action',json={'session_id':sid,'turn':1,'action':'examine'})

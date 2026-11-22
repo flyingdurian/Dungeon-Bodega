@@ -1,3 +1,13 @@
+# Dungeon Bodega — v1.2.4.4 Development Baseline
+
+**Current source of truth:** the `flyingdurian/Dungeon-Bodega` repository (`main`), synced by the owner from `C:\Users\TFBOSS\Documents\GitHub\Dungeon-Bodega`. The former name was **The Living Counter**. The owner confirmed the active QA build is **v1.2.4.4**; historical v1.2.5.1 migration notes do not supersede this source tree.
+
+**State:** engineering and portrait QA preview, not production-art complete. Master Chen Wei and Tarek Ashwood have five independent expression trial portraits each; neither has owner-approved 12-state production art. Keep the strict 12-state gate. Exodia and Hermes-Engine are external services, not game subprojects. See `docs/PROJECT_BOUNDARIES.md` and `docs/HERMES_TTS_CONSUMER_CONTRACT.md`.
+
+**Validation:** `python -m pytest -q` and `python tools/check_gdscript_static_v11.py` are source checks. Live Windows/Godot and external-service acceptance is separate. A sanitized source snapshot lacks required art/audio, so missing-asset test failures there do not prove a gameplay regression. Confirm actual binary assets before treating a fresh clone as a playable build.
+
+## Historical milestone notes (retained)
+
 ## V1.0.0 Living Interface Candidate
 
 Four new NPC archetypes (25 total), illustrated visitor gallery (F11), new Jade Atelier environment with selectable original theme, enhanced expressive word pop, and preserved Exodia/Hermes/shop-operations contracts. See `CHANGELOG_V100.md`, `docs/V100_ACCEPTANCE.md` and `docs/V100_ART_BIBLE.md`. The Windows/Godot runtime has not been verified by this build environment.

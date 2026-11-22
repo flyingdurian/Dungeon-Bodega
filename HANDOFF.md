@@ -1,3 +1,17 @@
+# Dungeon Bodega — Current Development Handoff
+
+**Canonical source:** `flyingdurian/Dungeon-Bodega` (`main`) and the owner's Windows working folder `C:\Users\TFBOSS\Documents\GitHub\Dungeon-Bodega`. Owner-confirmed QA build: **v1.2.4.4**; former working title **The Living Counter**. The dated v1.2.5.1 migration handoff is not a newer source baseline.
+
+**Scope:** 29-person roster, Godot client and authoritative FastAPI Game Director. Exodia dialogue and Hermes-Engine TTS are external services, and The Last Emporium is a separate game. Read `docs/PROJECT_BOUNDARIES.md` and `docs/HERMES_TTS_CONSUMER_CONTRACT.md`. No game-to-Hermes publishing, no cross-project assets or source, no modifications to external projects.
+
+**Art QA:** Master Chen and Tarek remain five-state QA trials, not owner-approved 12-state rigs; strict production gate blocked. Do not infer V1.2.5.1 Denise/Maya intake or allowlist files exist in this baseline. Preserve all roster IDs/voices, Exodia provider contract and saves.
+
+**Next checkpoint:** verify a clean Git checkout includes or can reproducibly restore required binary game assets, then run Windows Python 3.11 tests, native Godot import and gameplay, and separate live Exodia/Hermes tests. No historical test count proves current native acceptance. Sanitized code-only ZIP tests cannot prove binary asset availability.
+
+---
+
+## Historical milestone records (retained)
+
 ## V1.2.3 engineering work (owner quality lock)
 - See `docs/QUALITY_LOCK_V123.md`: 12 expression images required per visitor, all seven rejected remain NOT approved; strict art gate is required before full production release.
 - Keep four direct shop buttons without restoring intrusive Visitors rail.

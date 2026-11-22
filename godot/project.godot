@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="The Living Counter — V1.2.4.4 Two-Visitor Portrait QA Candidate"
+config/name="Dungeon Bodega — V1.2.4.4 Two-Visitor Portrait QA Candidate"
 config/description="Standalone fantasy AI haggling prototype driven by an authoritative bargaining service and Hermes-Engine TTS."
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.7")

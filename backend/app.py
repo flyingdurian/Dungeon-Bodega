@@ -1,4 +1,4 @@
-"""The Living Counter — thin FastAPI encounter service, distinct from Hermes TTS."""
+"""Dungeon Bodega — thin FastAPI encounter service, distinct from Hermes TTS."""
 from __future__ import annotations
 import os, time
 from pathlib import Path
@@ -20,7 +20,7 @@ jobs=DialogueJobs()
 
 def exodia_enabled():
     return os.getenv("EXODIA_ENABLED", "1").strip().lower() in ("1", "true", "yes") and os.getenv("LIVING_COUNTER_OFFLINE", "0").strip().lower() not in ("1", "true", "yes")
-app=FastAPI(title='The Living Counter — Crossroads Negotiation Prototype',version='1.2.4',description='Authoritative barter economy + personality narration; Hermes-Engine runs independently on port 8000.')
+app=FastAPI(title='Dungeon Bodega — Crossroads Negotiation Prototype',version='1.2.4.4',description='Authoritative barter economy + personality narration; Hermes-Engine runs independently on port 8000.')
 app.add_middleware(CORSMiddleware,allow_origins=['*'],allow_methods=['GET','POST'],allow_headers=['*'])
 
 class Start(BaseModel):
@@ -50,7 +50,7 @@ async def game_error_handler(_req: Request,exc:GameError):
 
 @app.get('/health')
 def health():
-    return {'status':'ok','game':'The Living Counter','version':'1.2.4',
+    return {'status':'ok','game':'Dungeon Bodega','version':'1.2.4.4',
             'ai_mode':'exodia_configured' if exodia_enabled() else 'offline',
             'exodia_provider':os.getenv('EXODIA_PROVIDER','deepseek'),
             'exodia_endpoint':'local' if exodia_enabled() else 'disabled',

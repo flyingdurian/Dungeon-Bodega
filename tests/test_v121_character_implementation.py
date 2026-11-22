@@ -54,4 +54,4 @@ def test_gallery_shows_all_four_new_customers():
 def test_exodia_contract_is_identical_to_v12_source():
     expected='3682ae40ca6d80c60a1c8d759b657f26a998a0ee7be09a4358faf5bcf9da2263'
     assert hashlib.sha256((ROOT/'backend/exodia.py').read_bytes()).hexdigest()==expected
-    assert (ROOT/'backend/app.py').read_text().count("'1.2.4'")>=1
+    assert (ROOT/'backend/app.py').read_text().count("'1.2.4.4'")>=1

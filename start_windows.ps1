@@ -1,4 +1,4 @@
-# The Living Counter v0.7 — Windows developer launcher.
+# Dungeon Bodega v1.2.4.4 — Windows developer launcher.
 # Run in PowerShell: powershell -ExecutionPolicy Bypass -File .\start_windows.ps1
 $ErrorActionPreference = 'Stop'
 Set-Location $PSScriptRoot
@@ -40,6 +40,6 @@ if ($env:STT_PREWARM -in @('1', 'true', 'yes')) {
     }
 }
 Write-Host 'Open mic is OFF on launch. Enable it explicitly in the game.'
-Write-Host 'Living Counter v0.7.0: http://127.0.0.1:8010/docs'
+Write-Host 'Dungeon Bodega v1.2.4.4: http://127.0.0.1:8010/docs'
 Write-Host "Exodia: $env:EXODIA_URL ($env:EXODIA_PROVIDER); Hermes: $env:HERMES_URL"
 & $python -m uvicorn backend.app:app --host 127.0.0.1 --port 8010 --workers 1

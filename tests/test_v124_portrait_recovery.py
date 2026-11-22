@@ -52,7 +52,7 @@ def test_f2_preview_is_bound_and_no_missing_state_fallback():
 
 def test_review_only_version_contract():
     from backend.app import app
-    assert app.version=='1.2.4'
+    assert app.version=='1.2.4.4'
     assert 'V1.2.4.4 Two-Visitor Portrait QA Candidate' in (ROOT/'godot/project.godot').read_text()
     for name in ('Shelves','Ledger','Relationships','Leads'):
         assert name.upper() in (ROOT/'godot/scripts/Main.gd').read_text().upper()

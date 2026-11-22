@@ -104,7 +104,7 @@ def test_action_replay_does_not_repeat_trust_reward():
 def test_api_action_contract_and_version():
     with TestClient(app) as c:
         health=c.get('/health')
-        assert health.status_code==200 and health.json()['version']=='1.2.4'
+        assert health.status_code==200 and health.json()['version']=='1.2.4.4'
         # API validation: never create action for a forged or missing session.
         resp=c.post('/encounter/action',json={'session_id':'a'*32,'turn':1,'action':'inspect'})
         assert resp.status_code==404

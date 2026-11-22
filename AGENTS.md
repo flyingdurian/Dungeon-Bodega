@@ -1,8 +1,14 @@
+## Current Dungeon Bodega baseline and project separation (READ FIRST)
+
+**Authoritative:** `flyingdurian/Dungeon-Bodega` `main`, owner-tested **v1.2.4.4**. The Living Counter is the historical name. The v1.2.5.1 migration handoff is historical reference, not proof of a later code baseline or permission to overwrite the current tree.
+
+Before repository/packaging work, read `docs/PROJECT_BOUNDARIES.md`; before speech work, read `docs/HERMES_TTS_CONSUMER_CONTRACT.md`. Never publish game source into Hermes-Engine, vendor its server/model/Studio into this game, or combine this code with The Last Emporium. Preserve `.env`, saves and owner-local state. Distinguish native Godot/audio acceptance from source tests.
+
 ## Owner quality override — V1.2.3 (READ FIRST)
 
 Always read `docs/QUALITY_LOCK_V123.md` and `.agents/skills/living-counter-visual-bible/SKILL.md` **before** touching visual art, character logic, GUI, or voice. This directive supersedes any earlier 8-expression minimum: **12 full-resolution, distinct portraits per character**; no fake waveforms; restore persistent utility buttons; no permanent Visitors rail. Do not ship as production-approved while `tools/validate_portraits_v123.py --strict` fails.
 
-# Development entry point — The Living Counter
+# Development entry point — Dungeon Bodega
 
 For **every new character, UI element, expression, and portrait-art task**, read:
 
